@@ -289,8 +289,6 @@ The Datadog Profiler requires MRI Ruby 2.1+ and CPU-time profiles are only avail
 
     ```ruby
     Datadog.configure do |c|
-
-      # This will enable the profiler
       c.profiling.enabled = true
     end
     ```
