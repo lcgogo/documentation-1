@@ -11088,6 +11088,10 @@ components:
         public_id:
           description: The organization public ID.
           type: string
+        schedule_name:
+          description: The name of the configuration used for grouping the usage by
+            tag.
+          type: string
         tags:
           $ref: '#/components/schemas/UsageAttributionTagNames'
         updated_at:
